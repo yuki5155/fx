@@ -6,7 +6,7 @@ from datetime import date
 from mpl_finance import candlestick_ohlc
 
 import matplotlib.pyplot as plt
-# stooqというデータ提供元からテスラの株価を取得する
+
 def main(stock):
     start = dt.datetime(2019,2,26)
     end = date.today()
@@ -23,6 +23,6 @@ def main(stock):
     plt.title(stock)
     plt.show()
 
-#yahoofinancialにある番号などを入力
+#yahoofinancialにある番号などを入力
 #main("MONA-JPY")
 
