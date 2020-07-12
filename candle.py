@@ -4,7 +4,6 @@ import pandas_datareader as pdr
 import datetime as dt
 from datetime import date
 from mpl_finance import candlestick_ohlc
-
 import matplotlib.pyplot as plt
 
 def main(stock):
